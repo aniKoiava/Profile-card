@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #19A1AE;
+}
+.circles .bottom{
+    position: relative;
+    top: 252px;
+    left: 90px;
+}
+.card{
+
+    height: 374px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin: -260px auto;
+    box-shadow: 10px 10px 10px 10px #2E3349;
+}
+.bubbles{
+    width: 350px;
+    height: 150px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #41CBD3;
+}
+.pic img{
+    position: absolute;
+    top: 310px;
+    left: 720px;
+}
+@font-face {
+    font-family: "khan";
+    src: url(../fonts/KumbhSans-Thin.ttf);
+    font-size: "dark";
+    src: url(../fonts/KumbhSans-Regular.ttf);
+}
+
+
+.name{
+    width: 234px;
+    display: flex;
+    margin: 72px 108px;
+}
+h2{
+    font-weight: 900;
+}
+h2, .name p {
+    font-family: "khan";
+    font-size: 18px;
+    margin-left: 8px;
+
+}
+.london{
+    text-align: center;
+    font-family: "khan";
+    position: relative;
+    top: -66px;
+    border-bottom: 1px solid #E8E9EC;
+    padding-bottom: 28px;
+}
+.social{
+    display: flex;
+    text-align: center;
+}
+.followers, .likes, .photo{
+    text-align: center;
+    top: -60px;
+    position: relative;
+    margin-left: 52px;
+
+}
+.number{
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "dark";
+    color: #2E3349; 
+    padding: 8px;
+}
+.follower, .like, .photos{
+    font-size: 10px;
+    font-weight: 400;
+    color: #6B7082;
+    font-family: "khan";
+}
+
+
